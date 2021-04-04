@@ -20,4 +20,4 @@ function init(){
   		d6.innerHTML = 'd5';
   		});
 
-window.addEventListener('load', init);
+window.addEventListener('load', init)
