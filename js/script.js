@@ -3,7 +3,7 @@ function init(){
     alert('Hello')
   }
   
-  var d4 = document.getElementById('entrybutton')
+  var d4 = document.getElementById('entryinput')
   
   d4.addEventListener('click', myEventFunction);
   
