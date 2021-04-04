@@ -3,14 +3,14 @@ function init(){
     alert('Hello')
   }
   
-  var d4 = document.getElementById('entryinput')
+  var d4 = document.getElementById('entrybutton')
   
-  d4.addEventListener('click', myEventFunction);
+  d4.addEventListener('enter', myEventFunction);
   
-  d4.addEventListener('click', function()){
-  		console.log('Clicked!');
-  		alert(entryinput.value);
-  		entryinput.value = 'javascript worked';
+  d4.addEventListener('enter', function()){
+  		console.log('An Entry!');
+  		alert(entrybutton.value);
+  		entrybutton.value = 'javascript worked';
   };
   
 }
