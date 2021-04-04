@@ -7,11 +7,11 @@ function init(){
   
   d4.addEventListener('click', myEventFunction);
   
-  d4.addEventListener('click', function()){
+  d4.addEventListener('click', function(){
   		console.log('An Entry!'');
-  		alert(entrybutton.value);
-  		entrybutton.value = 'javascript worked';
-  };
+  		alert(d4.value);
+  		d4.value = 'javascript worked';
+  });
   
 }
 
