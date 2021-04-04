@@ -15,9 +15,11 @@ function init(){
   var d6 = document.getElementById('textoutput')
   
    d5.addEventListener('click', function(){	
-  		alert(d5.value)
-  		d5.value = 'Hunter Mede:'
+  		alert(d5.value);
+  		d5.value = 'Hunter Mede:';
   		d6.innerHTML = 'd5';
+  		
+  		
   });
 
-window.addEventListener('load', init)
+window.addEventListener('load', init);
