@@ -18,7 +18,6 @@ function init(){
   		alert(d5.value);
   		d5.value = 'Hunter Mede:';
   		d6.innerHTML = 'd5';
-  		
-  );
+  		});
 
 window.addEventListener('load', init);
