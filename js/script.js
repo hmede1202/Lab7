@@ -8,7 +8,7 @@ function init(){
   d4.addEventListener('click', myEventFunction);
   
   d4.addEventListener('click', function(){
-  		console.log('An Entry!'');
+  		console.log('I was Clicked!');
   		alert(d4.value);
   		d4.value = 'javascript worked';
   });
