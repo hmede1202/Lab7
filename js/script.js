@@ -12,7 +12,6 @@ function init(){
    });
    
   var d5 = document.getElementById('entryinput')
-  var d6 = document.getElementById('textoutput')
   
    d5.addEventListener('click', function(){	
   		alert(d5.value);
@@ -20,4 +19,4 @@ function init(){
   		d6.innerHTML = 'd5';
   		});
 
-window.addEventListener('load', init)
+window.addEventListener('load', init);
