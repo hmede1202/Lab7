@@ -5,8 +5,6 @@ function init(){
   
   var d4 = document.getElementById('entrybutton')
   
-
-  
   d4.addEventListener('click', myEventFunction);
   
   d4.addEventListener('click', function(){
