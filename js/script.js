@@ -9,8 +9,8 @@ function init(){
   
   d4.addEventListener('enter', function()){
   		console.log('An Entry!');
-  		alert(entrybutton.value);
-  		entrybutton.value = 'javascript worked';
+  		alert(entryinput.value);
+  		entryinput.value = 'javascript worked';
   };
   
 }
