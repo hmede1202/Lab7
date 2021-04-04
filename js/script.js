@@ -5,7 +5,7 @@ function init(){
   
   var d4 = document.getElementById('entrybutton')
   
-  var d6 = document.getElementById('textoutput')
+
   
   d4.addEventListener('click', myEventFunction);
   
@@ -14,13 +14,13 @@ function init(){
    });
    
   var d5 = document.getElementById('entryinput')
-     
+  var d6 = document.getElementById('textoutput')
+  
    d5.addEventListener('click', function(){	
   		alert(d5.value)
-  		d5.value = 'Hunter Mede:d5'
-  		d5.innerHTML = 'd5';
-
+  		d5.value = 'Hunter Mede:'
+  		d6.innerHTML = 'd5';
   
-}
+  });
 
 window.addEventListener('load', init);
