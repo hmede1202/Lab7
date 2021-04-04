@@ -9,8 +9,8 @@ function init(){
   
   d4.addEventListener('click', function()){
   		console.log('Clicked!');
-  		alert(container.value);
-  		container.value = 'javascript worked';
+  		alert(entryinput.value);
+  		entryinput.value = 'javascript worked';
   };
   
 }
