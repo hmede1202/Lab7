@@ -13,9 +13,9 @@ function init(){
   
   d4.addEventListener('click', function(){
   		console.log('I was Clicked!');		
-  		alert(d5)
-  		alert(d6.value)
-  		d6.value = 'Hunter Mede:';
+  		alert(d6.value)(d5.value)
+  		d6.value = 'Hunter Mede:'
+  		d5.value = d5;
   });
   
 }
