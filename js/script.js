@@ -11,9 +11,13 @@ function init(){
   
   d4.addEventListener('click', function(){
     console.log('I was Clicked!');	
-  	alert(d5.value);
-  	d5.value = 'Hunter Mede:';		
-  	d6.innerHTML = 'd5';
   });
+
+d5.value = 'Hunter Mede:';		  
+
+function init(){
+  function myEventFunction(){
+    alert('d5.value');
+  } 
 
 window.addEventListener('load', init);
