@@ -5,7 +5,9 @@ function init(){
   
   var d4 = document.getElementById('entrybutton')
   
-  var d5 = document.getElementById('textoutput')
+  var d5 = document.getElementById('entryinput')
+  
+  var d6 = document.getElementById('textoutput')
   
   d4.addEventListener('click', myEventFunction);
   
