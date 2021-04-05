@@ -14,7 +14,7 @@ function init(){
     d5.value = "Hunter Mede:";
     alert(d5.value);
     d6.value = d5;
-    d6.innerHTML = d5.value;  
+    d6.innerHTML = d5;  
   });
 
 }
