@@ -11,9 +11,8 @@ function init(){
   
   d4.addEventListener('click', function(){
     console.log('An Entry!!!');	
-    alert(d5.value);
-    d5.value = "Hunter Mede:";
-    d6.innerHTML = 'd5';  
+    alert('Hunter Mede:'d5);
+    d6.innerHTML = d5;  
   });
 
 }
