@@ -10,7 +10,6 @@ function init(){
   d4.addEventListener('click', function(){
     console.log('An Entry!!!');	
     alert(d4.value);
-    dr
     d4.value = "Hunter Mede:"
   });
 
