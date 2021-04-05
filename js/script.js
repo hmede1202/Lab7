@@ -18,6 +18,6 @@ d5.value = 'Hunter Mede:';
 function init(){
   function myEventFunction(){
     alert('d5.value');
-  } 
+  }; 
 
 window.addEventListener('load', init);
