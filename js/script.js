@@ -10,10 +10,10 @@ function init(){
   d4.addEventListener('click', myEventFunction);
   
   d4.addEventListener('click', function(){
-    console.log('An Entry!!!');	
-    alert(d5);
+    console.log('An Entry!!!'); 
+    alert(d5.value);
     d5.value = "Hunter Mede:";
-    d6.innerHTML = d5;  
+    d6.innerHTML = 'entryinput';  
   });
 
 }
